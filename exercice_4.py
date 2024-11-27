@@ -2,8 +2,8 @@ def find_missing_number(liste):
     """
         Fonction retournant un nombre manquant dans une liste de nombre
     """
-    if not isinstance(s, str):
-        return f"Veuillez entrer une chaîne de caractères"
+    if not isinstance(liste, list):
+        return f"Veuillez entrer une liste"
     
     ensemble = set(liste)
     min_val = min(liste)
